@@ -15,6 +15,7 @@ function verificaNumero() {
     const numero = parseInt(inserirNumero.value);
     if (isNaN(numero) || numero < 1 || numero > 1000) {
         alert("Por favor, insira um número entre 1 e 1000.");
+        inserirNumero.value = "";
         return;
     }
     const resultado1 = parOuImpar(numero);
