@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Números</title>
+</head>
+<body>
+    <div class="container">
+        <label for="inserirNumero"><strong>Insira um número (1-1000): </strong></label>
+        <input type="numero" id="inserirNumero" min="1" max="1000"> 
+        <button onclick="verificaNumero()"><strong>Verificar</strong></button>  
+        <br>
+        <div class="container__resultado" id="resultadoFinal"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+:root {
+    --cor-texto: rgb(0, 0, 0);
+    --fonte: "Montserrat";
+}
+
+body {
+    color: var(--cor-texto);
+    font-family: var(--fonte);
+    display: flex;
+    justify-content: center;
+    padding: 20%; 
+}
+
+.container {
+    text-align: center;
+    line-height: 3em;
+}
+
+.container__resultado {
+    line-height: 6mm ;
+}
+
+button {
+    font-family: var(--fonte);
+}
+
+input {
+    font-family: var(--fonte);
+}
