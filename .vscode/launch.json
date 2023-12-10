@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Open index.html",
             "url": "http://localhost:5500",
-            "file": "c:\\Users\\isabe\\Desktop\\Números - ProBrain\\index.html"
+            "file": "C:/Users/isabe/Desktop/numeros-pro-brain/index.html"
         }
     ]
 }
